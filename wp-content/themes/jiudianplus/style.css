@@ -1,0 +1,148 @@
+/*
+Theme Name: jiudianplus
+Theme URI: http://9yls.net/
+Description: 9yls.net
+Version: 0.2
+Author: 9yls.net
+Origin Author URI: http://9yls.net/
+*/
+
+*{margin:0;padding:0;}
+body,ul,ol,dl,td,th,caption,pre,p,blockquote,input,textarea,table{font-family:"宋体", Arial, Helvetica, sans-serif;line-height:150%;color:#333}
+body{font-size:12px;margin:0 auto;background:#fff}
+ul,ol,li,p{margin:0;padding:0}
+abbr, acronym{letter-spacing:1px;}
+code, kbr{padding:0 2px;background:#F8F8F8;}
+blockquote{background:#F8F8F8;margin:0.4em;padding:0.8em;font-size:12px;}
+pre{margin:0 0 18px;padding:6px;background:#F8F8F8;white-space:pre-wrap;white-space:-moz-pre-wrap;white-space:-pre-wrap;
+white-space:-o-pre-wrap;word-wrap:break-word;font-size:13px; text-shadow:5px 5px 3px #ccc}
+a{text-decoration:none;color:#1d7591;}
+a:hover{text-decoration:underline}
+h1,h2,label{color:#333}
+h1{font-size:25px;line-height:110%;margin:0 auto 2px;font-weight:700;padding:0 0 3px}
+h2{font:14px normal Arial, Helvetica, sans-serif;color:#060;margin:0 0 12px;line-height:150%}
+h3{font-size:14px;margin-top:0;margin-bottom:2px}
+h4{font-size:16px;line-height:110%;margin-top:0;margin-bottom:5px;font-weight:700}
+h5{font-size:14px;line-height:110%;margin-top:0;margin-bottom:5px;font-weight:700}
+h6{font-size:12px;line-height:110%;margin-top:0;margin-bottom:5px;font-weight:700}
+h1 span{font-size:12px;color:#666;font-weight:400;margin-left:10px}
+blockquote{margin:10px;color:#666;background:#FFC}
+ul li,ol li{list-style:none}
+img{ border:none}
+.clear:after{content:".";display:block;height:0;clear:both;visibility:hidden}
+.clear{display:block;zoom:1}
+
+.wapper{width:960px;margin:0 auto}
+.main{background-position:left 0}
+
+/*头部*/
+.header{height:70px;overflow:hidden;background:#008083 url(images/header.gif) repeat-x;border-bottom:9px solid #659A90;margin-bottom:20px}
+.header,.header a{color:#FFF}
+.header .logo{width:156px;height:50px;overflow:hidden;float:left;background:url(images/logo.gif) no-repeat;margin-top:15px;cursor:pointer}
+.header .logo strong{display:none}
+.header .menu{list-style:none;float:left;margin:45px 0 0 20px;color:#fff}
+.header .menu li{list-style:none;font-size:14px;float:left}
+.header .menu li.none a{border:none;padding-left:10px;}
+.header .menu li a{border-left:1px solid #fff;padding:0 15px;font-weight:700}
+.header .nav{float:right;list-style:none;margin:45px 0 0}
+.header .nav li,.footer li{float:left;list-style:none;background:url(images/li.gif) no-repeat 0 8px;padding:0 10px}
+.header .nav li.myread{font-size:14px;background:none;font-weight:700}
+.myread span{font-weight:400;font-size:12px}
+
+/*footer*/
+.footer{padding:5px 0;border-top:1px dashed #aaa;margin:40px auto 10px;width:960px;clear:both;color:#999}
+.footer .fnav{float:right;text-align:right}
+.footer li.about{background:none}
+.from{color:#999;margin:0}
+
+img.centered {display:block;margin-left:auto;margin-right: auto;}
+img.alignright {padding:4px;margin:0 0 2px 7px;display:inline;}
+img.alignleft {padding:4px;margin:0 7px 2px 0;display:inline;}
+.alignright,.newst {float:right;}
+.alignleft,.relate {float:left;}
+.center{text-align: center;}
+.comnavi{text-align:center;margin:10px 0;}
+
+/*分页*/
+.pagers{height:28px;border-top:1px dashed #ddd;padding-top:15px;margin-top:15px;text-align:center;font-family:Arial, Helvetica, sans-serif}
+.pagers a,.pagers strong{margin:0 2px;padding:2px 5px;}
+.pagers a{border:1px solid #d1e1e0}
+.pagers strong{border:1px solid #bbb}
+
+/*首页*/
+.wapper .left{width:330px;float:left;overflow:hidden}	
+.post{margin-bottom:20px}
+.ttt{font-size:25px;height:25px;margin:0 auto 2px;font-weight:700;padding:3px 0}
+.ttt span p{font-size:12px;font-weight:normal;margin:-15px 0 0 0;text-align:right}
+.post h2 span{font-size:12px;color:#999;font-weight:400;margin-left:10px}
+.post .headline{padding:10px;margin-right:16px;width:310px;overflow:hidden;background:#edf4f1;float:left;height:376px}
+.post .headline img{margin-bottom:10px;}
+.post .headline a{display:block}
+.post h3{font-size:14px;height:20px;line-height:20px;overflow:hidden}
+.post .headline h3 a{height:auto;display:inline}
+.post .headline .from a{height:auto;display:inline}
+.post .headline .txt{height:74px;width:313px;overflow:hidden}
+.post .headline .from,.cen .from{margin-top:8px}
+.headline .pinglun{margin-right:10px}
+.pinglun{float:right;color:#999}
+.pinglun a{color:#999}
+.wapper .cen{width:330px;padding-left:20px;float:left;overflow:hidden}
+.cen .cat{overflow:hidden;height:420px;padding:30px 0 0 0}
+.cen .txt{height:36px;width:313px;overflow:hidden}
+
+/*sidebar*/
+.wapper .right{width:250px;float:right;overflow:hidden}
+.sidebar{background:#fff;margin-bottom:10px;padding-bottom:10px;border:1px solid #d1e1e0}
+.sidebar h2{background:#F0F6F4;color:#333;font-size:12px;padding:0 0 0 10px;line-height:28px}
+.sidebar ul li,.relate ul li,.newst ul li{background:url(images/li.gif) no-repeat 12px 8px;color:#999;padding:0 8px 0 20px;line-height:20px}
+#searchform #s {width:160px;padding:4px 2px;font-size:13px}
+#searchsubmit{padding:0 1px;}
+
+/*单页面 相关文章*/
+.relate ul li,.newst ul li{line-height:26px;padding-left:10px;background-position:0 10px}
+.relate,.newst{width:330px}
+.relate h3,.newst h3{background:#f0f6f4;padding:5px;margin-bottom:6px}
+
+/*分类页面*/
+.wapper .archive{width:680px;float:left;overflow:hidden}
+.archive .top{font-size:20px;padding-bottom:20px}
+.archive .post{margin:0;padding:10px 0;border-top:1px dotted #DDD}
+.archive .from{margin:2px 0 8px 0}
+.archive .from span{padding-left:10px}
+
+.postinfo{text-align:right;margin-top:4px;color:#999;clear:both}
+
+/*单页面*/
+.wapper #singles{width:702px;float:left;overflow:hidden}
+.wapper .single{width:680px;padding:10px;margin:0 0 10px 0;border:1px solid #DDD}
+.single .top{font-size:13px;padding-bottom:10px}
+.single h3{font-size:14px;}
+.single .post h3.hei{text-align:center;font-size:18px;text-shadow:1px 0 1px #BBB;color:#1d7591}
+.single .post{margin:0;padding:10px 0;border-top:1px dotted #DDD}
+.single .post p{font-size:13px;line-height:22px;margin-bottom:15px}
+.single .from{margin:2px 0 10px 0; text-align:center}
+.single .from span{padding-left:10px}
+.postnavi{margin-top:15px;height:1%;border-top:1px dashed #ddd;overflow:hidden;border-bottom:1px dashed #ddd;padding:15px 0}
+
+/*评论*/
+#respond{margin-top:15px;padding:10px 0 0 0;background:#edf4f1;}
+#commentform{padding:12px;}
+#commentform p{margin-top:10px;}
+#author, #email, #url{border-top:2px solid #666;border-left:2px solid #666;border-right:1px solid #ddd;border-bottom:1px solid #ddd;width:200px;padding:5px 7px 2px 3px;}
+#commentform #comment{border-top:2px solid #666;border-left:2px solid #666;border-right:1px solid #ddd;border-bottom:1px solid #ddd;padding:5px;font-size:13px;width:72%;}
+#commentform p label{display:block;float:left;width:70px;}
+#submit{border:1px solid #e1e1e1;background:#fcfcfc;text-align:center;width:140px;height:35px;font:bold 13px Georgia, "Times New Roman", Times, serif;margin-left:70px}
+h3#comments,h3#leave{padding:0 0 8px 10px;}
+#pings{margin-top:20px}
+#pings li{border:none}
+
+/*评论样式*/
+.commentlist p{line-height:22px;}
+.commentlist li{margin:0px;padding:8px;border-top:1px dotted #ccc;}
+.commentlist li li{margin:5px -8px -8px 20px;}
+.avatar{float:left;margin-right:10px;border:1px solid #e1e1e1;padding:2px;}
+.commentmetadata a{color:#666;}
+.children li{border-top:1px dashed #ccc}
+cite{margin:0 5px;font:1.1em Georgia, "Times New Roman", Times, serif;}
+.reply a, .cancel-comment-reply a{font:13px;color:#888;}
+#show_author_info a,#hide_author_info a{padding-left:10px;text-decoration:underline;}
